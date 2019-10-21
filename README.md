@@ -16,6 +16,8 @@ AppDelegate 找不到设置 window 的方法了
 
 iOS 13 之后，Appdelegate 不在负责UI生命周期，所有的UI生命周期交给 SceneDelegate 处理：
 
+![文档图片](image_1.png)
+
 ```
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
 
