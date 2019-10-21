@@ -1,12 +1,12 @@
 # iOS13-Adaptive
 
-### 关于 DarkMode 的适配
+#### DarkMode
 
 https://www.jianshu.com/p/27f5df87cc16
 
 https://www.jianshu.com/p/7925bd51d2d6
 
-### 关于 SceneDelegate
+#### SceneDelegate
 
 Appdelegate 的 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions方法中创建根控制器，会崩溃报错：
 
